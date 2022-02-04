@@ -47,7 +47,6 @@ double sharpOctaves[7][5] = {
 double noteLengths[] = {1, 0.5, 0.25, 0.125, 0.0625, 0.03125};
 
 void __attribute__((interrupt(IPL1AUTO), vector(12))) Timer3_Handler() {
-    // why is this mandatory?
     IFS0bits.T3IF = 0; // clear Timer3 interrupt flag
 }
 

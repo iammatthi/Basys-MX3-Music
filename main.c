@@ -69,15 +69,15 @@ void main() {
     LCD_Cmd(0x80 | 0x40); // Set DDRAM Address to 0x40 (start of second line)
     LCD_PutString("song 1");
     Speaker_Play(song1, song1Tempo);
-//    LCD_Cmd(0x80 | 0x40); // Set DDRAM Address to 0x40 (start of second line)
-//    LCD_PutString("song 2");
-//    Speaker_Play(song2, song2Tempo);
-//    LCD_Cmd(0x80 | 0x40); // Set DDRAM Address to 0x40 (start of second line)
-//    LCD_PutString("song 3");
-//    Speaker_Play(song3, song3Tempo);
-//    LCD_Cmd(0x80 | 0x40); // Set DDRAM Address to 0x40 (start of second line)
-//    LCD_PutString("song 4");
-//    Speaker_Play(song4, song4Tempo);
+    LCD_Cmd(0x80 | 0x40); // Set DDRAM Address to 0x40 (start of second line)
+    LCD_PutString("song 2");
+    Speaker_Play(song2, song2Tempo);
+    LCD_Cmd(0x80 | 0x40); // Set DDRAM Address to 0x40 (start of second line)
+    LCD_PutString("song 3");
+    Speaker_Play(song3, song3Tempo);
+    LCD_Cmd(0x80 | 0x40); // Set DDRAM Address to 0x40 (start of second line)
+    LCD_PutString("song 4");
+    Speaker_Play(song4, song4Tempo);
     LCD_Cmd(0x80 | 0x40); // Set DDRAM Address to 0x40 (start of second line)
     LCD_PutString("the end");
 }
